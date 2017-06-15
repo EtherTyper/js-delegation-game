@@ -1,0 +1,22 @@
+{
+  "name": "cosmos-delegation-game",
+  "version": "0.0.0",
+  "description": "Client for Cosmos Delegation Game nodes",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cosmos",
+    "tendermint"
+  ],
+  "author": "Matt Bell <mappum@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tendermint-crypto": "github:mappum/js-crypto",
+    "varstruct": "^6.1.1"
+  }
+}
