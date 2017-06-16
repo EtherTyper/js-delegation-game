@@ -1,4 +1,9 @@
-module.exports = {
+'use strict'
+
+let { Candidate, Candidates } = require('./src/types.js')
+
+module.exports = Object.assign(require('./src/client.js'), {
   allocation: require('./src/allocation.json'),
-  CandidacyTx: require('./src/candidacyTx.js')
-}
+  Candidate,
+  Candidates
+})

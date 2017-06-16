@@ -16,6 +16,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "old": "^0.2.0",
+    "tendermint": "^2.0.1",
     "tendermint-crypto": "github:mappum/js-crypto",
     "varstruct": "^6.1.1"
   }
